@@ -1,0 +1,1607 @@
+ [
+    {
+      "Platform": "JILI",
+      "GameType": "FH",
+      "AWCGameCode": "JILI-FISH-001",
+      "EnglishName": "Royal Fishing",
+      "ChineseName": "钱龙捕鱼",
+      "RTP": 0.97,
+      "ThaiName": "รอยัลฟิชชิ่ง",
+      "VietnameseName": "Tiền Long Đánh Cá"
+    },
+    {
+      "Platform": "JILI",
+      "GameType": "FH",
+      "AWCGameCode": "JILI-FISH-002",
+      "EnglishName": "Bombing Fishing",
+      "ChineseName": "炸鱼来了",
+      "RTP": 0.97,
+      "ThaiName": "ระเบิดปลามาแล้ว",
+      "VietnameseName": "Nổ Cá Đến Rồi"
+    },
+    {
+      "Platform": "JILI",
+      "GameType": "FH",
+      "AWCGameCode": "JILI-FISH-003",
+      "EnglishName": "Jackpot Fishing",
+      "ChineseName": "极速彩金捕鱼",
+      "RTP": 0.97,
+      "ThaiName": "แจ็คพอตปลา",
+      "VietnameseName": "Jackpot Đánh Cá"
+    },
+    {
+      "Platform": "JILI",
+      "GameType": "FH",
+      "AWCGameCode": "JILI-FISH-004",
+      "EnglishName": "Dinosaur Tycoon",
+      "ChineseName": "猎龙大亨",
+      "RTP": 0.97,
+      "ThaiName": "Tycoon ไดโนเสาร์",
+      "VietnameseName": "Chuyên Gia Săn Rồng"
+    },
+    {
+      "Platform": "JILI",
+      "GameType": "FH",
+      "AWCGameCode": "JILI-FISH-005",
+      "EnglishName": "Happy Fishing",
+      "ChineseName": "开心捕鱼",
+      "RTP": 0.97,
+      "ThaiName": "แฮปปี้ยิงปลา",
+      "VietnameseName": "Đánh cá vui vẻ"
+    },
+    {
+      "Platform": "JILI",
+      "GameType": "FH",
+      "AWCGameCode": "JILI-FISH-006",
+      "EnglishName": "Dragon Fortune",
+      "ChineseName": "飞龙宝藏",
+      "RTP": 0.97,
+      "ThaiName": "มังกรฟอร์จูน",
+      "VietnameseName": "Phi Long Tàng Bảo"
+    },
+    {
+      "Platform": "JILI",
+      "GameType": "FH",
+      "AWCGameCode": "JILI-FISH-007",
+      "EnglishName": "Mega Fishing",
+      "ChineseName": "王者捕鱼",
+      "RTP": 0.97,
+      "ThaiName": "เจ้าแห่งการยิงปลา",
+      "VietnameseName": "Vương Giả Đánh Cá"
+    },
+    {
+      "Platform": "JILI",
+      "GameType": "FH",
+      "AWCGameCode": "JILI-FISH-008",
+      "EnglishName": "Boom Legend",
+      "ChineseName": "夺宝传奇",
+      "RTP": 0.97,
+      "ThaiName": "ตำนานขุมทรัพย์ ",
+      "VietnameseName": "Đoạt bảo truyền kỳ"
+    },
+    {
+      "Platform": "JILI",
+      "GameType": "FH",
+      "AWCGameCode": "JILI-FISH-009",
+      "EnglishName": "All-star Fishing",
+      "ChineseName": "全明星捕鱼",
+      "RTP": 0.97,
+      "ThaiName": "เกมยิงปลา",
+      "VietnameseName": "Dàn sao đánh cá",
+      "Remark\n备注": "Plinko"
+    },
+    {
+      "Platform": "JILI",
+      "GameType": "FH",
+      "AWCGameCode": "JILI-FISH-011",
+      "EnglishName": "Dinosaur Tycoon II",
+      "ChineseName": "猎龙大亨2",
+      "RTP": 0.97,
+      "ThaiName": "ไดโนเสาร์ไทคู่น II",
+      "VietnameseName": "Nhà tư bản khủng long II"
+    },
+    {
+      "Platform": "JILI",
+      "GameType": "FH",
+      "AWCGameCode": "JILI-FISH-012",
+      "EnglishName": "Ocean King Jackpot",
+      "ChineseName": "海王彩金",
+      "RTP": 0.97,
+      "ThaiName": "แจ็คพอตโอเชียนคิง",
+      "VietnameseName": "Jackpot Vua Đại Dương"
+    },
+    {
+      "Platform": "JILI",
+      "GameType": "SLOT",
+      "AWCGameCode": "JILI-SLOT-002",
+      "EnglishName": "Hot Chilli",
+      "ChineseName": "火热辣椒",
+      "RTP": 0.97,
+      "ThaiName": "พริกแซบ",
+      "VietnameseName": "Quả Ớt Nóng Bỏng"
+    },
+    {
+      "Platform": "JILI",
+      "GameType": "SLOT",
+      "AWCGameCode": "JILI-SLOT-003",
+      "EnglishName": "Chin Shi Huang",
+      "ChineseName": "秦皇传说",
+      "RTP": 0.97,
+      "ThaiName": "ตํานานจักรพรรดิจิ๋นซี",
+      "VietnameseName": "Truyền Thuyết Tần Vương"
+    },
+    {
+      "Platform": "JILI",
+      "GameType": "SLOT",
+      "AWCGameCode": "JILI-SLOT-004",
+      "EnglishName": "War Of Dragons",
+      "ChineseName": "舞龙争霸",
+      "RTP": 0.97,
+      "ThaiName": "สงครามแห่งมังกร",
+      "VietnameseName": "Vũ Long Tranh Bá"
+    },
+    {
+      "Platform": "JILI",
+      "GameType": "SLOT",
+      "AWCGameCode": "JILI-SLOT-005",
+      "EnglishName": "Fortune Tree",
+      "ChineseName": "发财树",
+      "RTP": 0.97,
+      "ThaiName": "ต้นไม้แจกโชค",
+      "VietnameseName": "Cây Phát Tài"
+    },
+    {
+      "Platform": "JILI",
+      "GameType": "SLOT",
+      "AWCGameCode": "JILI-SLOT-006",
+      "EnglishName": "Lucky Ball",
+      "ChineseName": "球好运",
+      "RTP": 0.97,
+      "ThaiName": "ลัคกี้บอล",
+      "VietnameseName": "Cầu Hảo Vận"
+    },
+    {
+      "Platform": "JILI",
+      "GameType": "SLOT",
+      "AWCGameCode": "JILI-SLOT-007",
+      "EnglishName": "Hyper Burst",
+      "ChineseName": "超爆",
+      "RTP": 0.97,
+      "ThaiName": "ระเบิดแจกโชค",
+      "VietnameseName": "Siêu Nổ Tung"
+    },
+    {
+      "Platform": "JILI",
+      "GameType": "SLOT",
+      "AWCGameCode": "JILI-SLOT-008",
+      "EnglishName": "Shanghai Beauty",
+      "ChineseName": "上海甜心",
+      "RTP": 0.97,
+      "ThaiName": "เซี่ยงไฮ้ที่รัก",
+      "VietnameseName": "Thượng Hải Ngọt Ngào"
+    },
+    {
+      "Platform": "JILI",
+      "GameType": "SLOT",
+      "AWCGameCode": "JILI-SLOT-009",
+      "EnglishName": "Fa Fa Fa",
+      "ChineseName": "极速发发发",
+      "RTP": 0.97,
+      "ThaiName": "ใจดีแจกโชค",
+      "VietnameseName": "Cực Tốc Phát Đại Tài"
+    },
+    {
+      "Platform": "JILI",
+      "GameType": "SLOT",
+      "AWCGameCode": "JILI-SLOT-010",
+      "EnglishName": "God Of Martial",
+      "ChineseName": "关云长",
+      "RTP": 0.97,
+      "ThaiName": "เทพเจ้าแห่งการต่อสู้",
+      "VietnameseName": "Quan Vân Trường"
+    },
+    {
+      "Platform": "JILI",
+      "GameType": "SLOT",
+      "AWCGameCode": "JILI-SLOT-012",
+      "EnglishName": "Hawaii Beauty",
+      "ChineseName": "海岛甜心",
+      "RTP": 0.97,
+      "ThaiName": "ความงามแห่งฮาวาย",
+      "VietnameseName": "Hải Đảo Ngọt Ngào"
+    },
+    {
+      "Platform": "JILI",
+      "GameType": "SLOT",
+      "AWCGameCode": "JILI-SLOT-013",
+      "EnglishName": "SevenSevenSeven",
+      "ChineseName": "极速777",
+      "RTP": 0.97,
+      "ThaiName": "รวดเร็ว777",
+      "VietnameseName": "Cực Tốc 777"
+    },
+    {
+      "Platform": "JILI",
+      "GameType": "SLOT",
+      "AWCGameCode": "JILI-SLOT-014",
+      "EnglishName": "Crazy777",
+      "ChineseName": "疯狂777",
+      "RTP": 0.97,
+      "ThaiName": "Crazy777",
+      "VietnameseName": "Điên Cuồng 777"
+    },
+    {
+      "Platform": "JILI",
+      "GameType": "SLOT",
+      "AWCGameCode": "JILI-SLOT-015",
+      "EnglishName": "Bubble Beauty",
+      "ChineseName": "人鱼甜心",
+      "RTP": 0.97,
+      "ThaiName": "หวานใจนางเงือก",
+      "VietnameseName": "Nhân Ngư Ngọt Ngào"
+    },
+    {
+      "Platform": "JILI",
+      "GameType": "SLOT",
+      "AWCGameCode": "JILI-SLOT-016",
+      "EnglishName": "Bao boon chin",
+      "ChineseName": "包青天",
+      "RTP": 0.97,
+      "ThaiName": "เปาบุ้นจิ้น",
+      "VietnameseName": "Bao Thanh Thiên"
+    },
+    {
+      "Platform": "JILI",
+      "GameType": "SLOT",
+      "AWCGameCode": "JILI-SLOT-017",
+      "EnglishName": "Crazy FaFaFa",
+      "ChineseName": "疯狂一路发",
+      "RTP": 0.97,
+      "ThaiName": "เฟี้ยวฟ้าวCrazy",
+      "VietnameseName": "Điên Cuồng Phát Đại Tài"
+    },
+    {
+      "Platform": "JILI",
+      "GameType": "SLOT",
+      "AWCGameCode": "JILI-SLOT-018",
+      "EnglishName": "XiYangYang",
+      "ChineseName": "喜洋洋",
+      "RTP": 0.97,
+      "ThaiName": "ซีหยางหยาง",
+      "VietnameseName": "Niềm Vui Tràn Trề"
+    },
+    {
+      "Platform": "JILI",
+      "GameType": "SLOT",
+      "AWCGameCode": "JILI-SLOT-019",
+      "EnglishName": "FortunePig",
+      "ChineseName": "极速猪来了",
+      "RTP": 0.97,
+      "ThaiName": "ฟอร์จูนลูกหมู",
+      "VietnameseName": "Cực Tốc Trư Lai Dã"
+    },
+    {
+      "Platform": "JILI",
+      "GameType": "SLOT",
+      "AWCGameCode": "JILI-SLOT-020",
+      "EnglishName": "Candy Baby",
+      "ChineseName": "糖果宝贝",
+      "RTP": 0.97,
+      "ThaiName": "ลูกอมที่รัก",
+      "VietnameseName": "Baby Kẹo Ngọt"
+    },
+    {
+      "Platform": "JILI",
+      "GameType": "SLOT",
+      "AWCGameCode": "JILI-SLOT-021",
+      "EnglishName": "Diamond Party",
+      "ChineseName": "钻石派对",
+      "RTP": 0.97,
+      "ThaiName": "ปาร์ตี้เพชร",
+      "VietnameseName": "Buổi Tiệc Đá Quý"
+    },
+    {
+      "Platform": "JILI",
+      "GameType": "SLOT",
+      "AWCGameCode": "JILI-SLOT-022",
+      "EnglishName": "Fengshen",
+      "ChineseName": "封神",
+      "RTP": 0.97,
+      "ThaiName": "เฟิงเซิน",
+      "VietnameseName": "Bảng Phong Thần"
+    },
+    {
+      "Platform": "JILI",
+      "GameType": "SLOT",
+      "AWCGameCode": "JILI-SLOT-023",
+      "EnglishName": "Golden Bank",
+      "ChineseName": "疯狂抢金乐",
+      "RTP": 0.97,
+      "ThaiName": "โกลเด้นแบงค์",
+      "VietnameseName": "Điên Cuồng Cướp Vàng"
+    },
+    {
+      "Platform": "JILI",
+      "GameType": "SLOT",
+      "AWCGameCode": "JILI-SLOT-024",
+      "EnglishName": "Lucky Goldbricks",
+      "ChineseName": "霸金砖",
+      "RTP": 0.97,
+      "ThaiName": "ลัคกี้โกลด์บริกส์",
+      "VietnameseName": "Thỏi Vàng May Mắn"
+    },
+    {
+      "Platform": "JILI",
+      "GameType": "SLOT",
+      "AWCGameCode": "JILI-SLOT-025",
+      "EnglishName": "Dragon Treasure",
+      "ChineseName": "神龙夺宝",
+      "RTP": 0.97,
+      "ThaiName": "สมบัติมังกร",
+      "VietnameseName": "Thần Long Đoạt Bảo"
+    },
+    {
+      "Platform": "JILI",
+      "GameType": "SLOT",
+      "AWCGameCode": "JILI-SLOT-026",
+      "EnglishName": "Charge Buffalo",
+      "ChineseName": "冲锋野牛",
+      "RTP": 0.97,
+      "ThaiName": "ชาร์จวัวกระทิง",
+      "VietnameseName": "Trâu Rừng Xung Phong"
+    },
+    {
+      "Platform": "JILI",
+      "GameType": "SLOT",
+      "AWCGameCode": "JILI-SLOT-027",
+      "EnglishName": "Super Ace",
+      "ChineseName": "超级王牌",
+      "RTP": 0.97,
+      "ThaiName": "ซูเปอร์เอซ",
+      "VietnameseName": "Siêu Cấp Ace"
+    },
+    {
+      "Platform": "JILI",
+      "GameType": "SLOT",
+      "AWCGameCode": "JILI-SLOT-028",
+      "EnglishName": "Jungle King",
+      "ChineseName": "丛林之王",
+      "RTP": 0.97,
+      "ThaiName": "ราชาแห่งป่า",
+      "VietnameseName": "Vua Rừng Xanh"
+    },
+    {
+      "Platform": "JILI",
+      "GameType": "SLOT",
+      "AWCGameCode": "JILI-SLOT-029",
+      "EnglishName": "Money Coming",
+      "ChineseName": "疯狂钱来也",
+      "RTP": 0.97,
+      "ThaiName": "เหรียญแจกโชค",
+      "VietnameseName": "Tiền Đến Rồi"
+    },
+    {
+      "Platform": "JILI",
+      "GameType": "SLOT",
+      "AWCGameCode": "JILI-SLOT-030",
+      "EnglishName": "Golden Queen",
+      "ChineseName": "黄金艳后",
+      "RTP": 0.97,
+      "ThaiName": "ราชินีทองคำ",
+      "VietnameseName": "Hoàng Kim Diễm Hậu"
+    },
+    {
+      "Platform": "JILI",
+      "GameType": "SLOT",
+      "AWCGameCode": "JILI-SLOT-031",
+      "EnglishName": "Boxing King",
+      "ChineseName": "拳王",
+      "RTP": 0.97,
+      "ThaiName": "ราชามวย",
+      "VietnameseName": "Quyền Vương"
+    },
+    {
+      "Platform": "JILI",
+      "GameType": "SLOT",
+      "AWCGameCode": "JILI-SLOT-032",
+      "EnglishName": "Matka India",
+      "ChineseName": "公平竞猜",
+      "RTP": "-",
+      "ThaiName": "เกมยุติธรรม",
+      "VietnameseName": "Thi Đoán Công Bằng"
+    },
+    {
+      "Platform": "JILI",
+      "GameType": "SLOT",
+      "AWCGameCode": "JILI-SLOT-033",
+      "EnglishName": "Dice",
+      "ChineseName": "骰子竞猜",
+      "RTP": 0.965,
+      "ThaiName": "ลูกเต๋า",
+      "VietnameseName": "-",
+      "Remark\n备注": "Not support doLoginAndLaunchGame to enter game\n不支援doLoginAndLaunchGame进入游戏"
+    },
+    {
+      "Platform": "JILI",
+      "GameType": "SLOT",
+      "AWCGameCode": "JILI-SLOT-034",
+      "EnglishName": "DragonTiger",
+      "ChineseName": "龙虎竞猜",
+      "RTP": 0.965,
+      "ThaiName": "มังกร&เสือ",
+      "VietnameseName": "Thi đoán xúc xắc",
+      "Remark\n备注": "Not support doLoginAndLaunchGame to enter game\n不支援doLoginAndLaunchGame进入游戏"
+    },
+    {
+      "Platform": "JILI",
+      "GameType": "SLOT",
+      "AWCGameCode": "JILI-SLOT-035",
+      "EnglishName": "7 UP-DOWN",
+      "ChineseName": "扑克竞猜",
+      "RTP": 0.965,
+      "ThaiName": "เกมทายใจ",
+      "VietnameseName": "Thi đoán Long Hổ",
+      "Remark\n备注": "Not support doLoginAndLaunchGame to enter game\n不支援doLoginAndLaunchGame进入游戏"
+    },
+    {
+      "Platform": "JILI",
+      "GameType": "SLOT",
+      "AWCGameCode": "JILI-SLOT-036",
+      "EnglishName": "Lucky Number",
+      "ChineseName": "数字竞猜",
+      "RTP": 0.965,
+      "ThaiName": "เลขนำโชค",
+      "VietnameseName": "Thi đoán số",
+      "Remark\n备注": "Not support doLoginAndLaunchGame to enter game\n不支援doLoginAndLaunchGame进入游戏"
+    },
+    {
+      "Platform": "JILI",
+      "GameType": "SLOT",
+      "AWCGameCode": "JILI-SLOT-037",
+      "EnglishName": "Lucky Coming",
+      "ChineseName": "象财神",
+      "RTP": 0.97,
+      "ThaiName": "พระพิฆเณศแจกโชค",
+      "VietnameseName": "Voi Thần Tài"
+    },
+    {
+      "Platform": "JILI",
+      "GameType": "SLOT",
+      "AWCGameCode": "JILI-SLOT-038",
+      "EnglishName": "Pharaoh Treasure",
+      "ChineseName": "法老秘宝",
+      "RTP": 0.97,
+      "ThaiName": "สมบัติของฟาโรห์",
+      "VietnameseName": "Bảo vật Pharaoh"
+    },
+    {
+      "Platform": "JILI",
+      "GameType": "SLOT",
+      "AWCGameCode": "JILI-SLOT-039",
+      "EnglishName": "Secret Treasure",
+      "ChineseName": "秘境夺宝",
+      "RTP": 0.97,
+      "ThaiName": "สมบัติลับ",
+      "VietnameseName": "Bảo vật thần bí"
+    },
+    {
+      "Platform": "JILI",
+      "GameType": "SLOT",
+      "AWCGameCode": "JILI-SLOT-040",
+      "EnglishName": "RomaX",
+      "ChineseName": "罗马X",
+      "RTP": 0.97,
+      "ThaiName": "RomaX",
+      "VietnameseName": "RomaX"
+    },
+    {
+      "Platform": "JILI",
+      "GameType": "SLOT",
+      "AWCGameCode": "JILI-SLOT-041",
+      "EnglishName": "Super Rich",
+      "ChineseName": "真有钱",
+      "RTP": 0.97,
+      "ThaiName": "ซุปเปอร์ริช",
+      "VietnameseName": "Thật là giàu"
+    },
+    {
+      "Platform": "JILI",
+      "GameType": "SLOT",
+      "AWCGameCode": "JILI-SLOT-042",
+      "EnglishName": "Golden Empire",
+      "ChineseName": "黄金帝国",
+      "RTP": 0.97,
+      "ThaiName": "อาณาจักรแห่งทองคำ",
+      "VietnameseName": "Đế quốc hoàng kim"
+    },
+    {
+      "Platform": "JILI",
+      "GameType": "SLOT",
+      "AWCGameCode": "JILI-SLOT-043",
+      "EnglishName": "Fortune Gems",
+      "ChineseName": "迦罗宝石",
+      "RTP": 0.97,
+      "ThaiName": "อัญมณีแห่งโชคลาภ",
+      "VietnameseName": "Bảo thạch Kala"
+    },
+    {
+      "Platform": "JILI",
+      "GameType": "SLOT",
+      "AWCGameCode": "JILI-SLOT-044",
+      "EnglishName": "Party Night",
+      "ChineseName": "嗨翻夜",
+      "RTP": 0.97,
+      "ThaiName": "ปาร์ตี้ไนท์",
+      "VietnameseName": "Đêm Party"
+    },
+    {
+      "Platform": "JILI",
+      "GameType": "SLOT",
+      "AWCGameCode": "JILI-SLOT-045",
+      "EnglishName": "Crazy Hunter",
+      "ChineseName": "疯狂炮手",
+      "RTP": 0.97,
+      "ThaiName": "Crazy ฮันเตอร์",
+      "VietnameseName": "Pháo thủ điên cuồng"
+    },
+    {
+      "Platform": "JILI",
+      "GameType": "SLOT",
+      "AWCGameCode": "JILI-SLOT-046",
+      "EnglishName": "Magic Lamp",
+      "ChineseName": "阿拉丁",
+      "RTP": 0.97,
+      "ThaiName": "อะลาดิน",
+      "VietnameseName": "Magic Lamp"
+    },
+    {
+      "Platform": "JILI",
+      "GameType": "SLOT",
+      "AWCGameCode": "JILI-SLOT-047",
+      "EnglishName": "TWIN WINS",
+      "ChineseName": "TWIN WINS",
+      "RTP": 0.97,
+      "ThaiName": "TWIN WINS",
+      "VietnameseName": "TWIN WINS"
+    },
+    {
+      "Platform": "JILI",
+      "GameType": "SLOT",
+      "AWCGameCode": "JILI-SLOT-048",
+      "EnglishName": "Agent Ace",
+      "ChineseName": "王牌特务",
+      "RTP": 0.97,
+      "ThaiName": "ตัวแทนเอซ",
+      "VietnameseName": "Đặc vụ Át Chủ Bài"
+    },
+    {
+      "Platform": "JILI",
+      "GameType": "SLOT",
+      "AWCGameCode": "JILI-SLOT-049",
+      "EnglishName": "Alibaba",
+      "ChineseName": "阿里巴巴",
+      "RTP": 0.97,
+      "ThaiName": "อาลี บาบา",
+      "VietnameseName": "Ali Baba"
+    },
+    {
+      "Platform": "JILI",
+      "GameType": "SLOT",
+      "AWCGameCode": "JILI-SLOT-050",
+      "EnglishName": "Medusa",
+      "ChineseName": "梅杜莎",
+      "RTP": 0.97,
+      "ThaiName": "Medusa",
+      "VietnameseName": "Medusa"
+    },
+    {
+      "Platform": "JILI",
+      "GameType": "SLOT",
+      "AWCGameCode": "JILI-SLOT-051",
+      "EnglishName": "Mega Ace",
+      "ChineseName": "无限王牌",
+      "RTP": 0.97,
+      "ThaiName": "Mega Ace",
+      "VietnameseName": "Vương bài vô hạn"
+    },
+    {
+      "Platform": "JILI",
+      "GameType": "SLOT",
+      "AWCGameCode": "JILI-SLOT-052",
+      "EnglishName": "Thor X",
+      "ChineseName": "雷神 X",
+      "RTP": 0.97,
+      "ThaiName": "ธอร์ X",
+      "VietnameseName": "Lôi Thần X"
+    },
+    {
+      "Platform": "JILI",
+      "GameType": "SLOT",
+      "AWCGameCode": "JILI-SLOT-053",
+      "EnglishName": "Book of Gold",
+      "ChineseName": "黄金之书",
+      "RTP": 0.97,
+      "ThaiName": "หนังสือทองคำ",
+      "VietnameseName": "Quyển sách hoàng kim"
+    },
+    {
+      "Platform": "JILI",
+      "GameType": "SLOT",
+      "AWCGameCode": "JILI-SLOT-054",
+      "EnglishName": "Crazy Pusher",
+      "ChineseName": "Crazy Pusher",
+      "RTP": 0.97,
+      "ThaiName": "Crazy Pusher",
+      "VietnameseName": "Crazy Pusher"
+    },
+    {
+      "Platform": "JILI",
+      "GameType": "SLOT",
+      "AWCGameCode": "JILI-SLOT-056",
+      "EnglishName": "Happy Taxi",
+      "ChineseName": "快乐计程车",
+      "RTP": 0.97,
+      "ThaiName": "แท็กซี่แสนสุข",
+      "VietnameseName": "Taxi vui vẻ"
+    },
+    {
+      "Platform": "JILI",
+      "GameType": "SLOT",
+      "AWCGameCode": "JILI-SLOT-057",
+      "EnglishName": "Gold Rush",
+      "ChineseName": "疯狂淘金",
+      "RTP": 0.97,
+      "ThaiName": "ตื่นทอง",
+      "VietnameseName": "Cơn sốt đãi vàng"
+    },
+    {
+      "Platform": "JILI",
+      "GameType": "SLOT",
+      "AWCGameCode": "JILI-SLOT-058",
+      "EnglishName": "Mayan Empire",
+      "ChineseName": "玛雅帝国",
+      "RTP": 0.97,
+      "ThaiName": "อาณาจักรมายา",
+      "VietnameseName": "Đế quốc Maya"
+    },
+    {
+      "Platform": "JILI",
+      "GameType": "SLOT",
+      "AWCGameCode": "JILI-SLOT-059",
+      "EnglishName": "Bone Fortune",
+      "ChineseName": "庆典之月",
+      "RTP": 0.97,
+      "ThaiName": "เดือนแห่งการเฉลิมฉลอง",
+      "VietnameseName": "Tháng khánh điển"
+    },
+    {
+      "Platform": "JILI",
+      "GameType": "SLOT",
+      "AWCGameCode": "JILI-SLOT-060",
+      "EnglishName": "JILI CAISHEN",
+      "ChineseName": "吉利财神",
+      "RTP": 0.97,
+      "ThaiName": "JILI CAISHEN",
+      "VietnameseName": "Thần Tài JILI"
+    },
+    {
+      "Platform": "JILI",
+      "GameType": "SLOT",
+      "AWCGameCode": "JILI-SLOT-061",
+      "EnglishName": "Win Drop",
+      "ChineseName": "Win Drop",
+      "RTP": 0.97,
+      "ThaiName": "Win Drop",
+      "VietnameseName": "Win Drop"
+    },
+    {
+      "Platform": "JILI",
+      "GameType": "SLOT",
+      "AWCGameCode": "JILI-SLOT-062",
+      "EnglishName": "Bonus Hunter",
+      "ChineseName": "赏金猎人",
+      "RTP": 0.97,
+      "ThaiName": "นักล่าเงินรางวัล",
+      "VietnameseName": "Thợ săn tiền thưởng"
+    },
+    {
+      "Platform": "JILI",
+      "GameType": "SLOT",
+      "AWCGameCode": "JILI-SLOT-063",
+      "EnglishName": "World Cup",
+      "ChineseName": "世界杯",
+      "RTP": 0.97,
+      "ThaiName": "ฟุตบอลโลก",
+      "VietnameseName": "Cúp thế giới"
+    },
+    {
+      "Platform": "JILI",
+      "GameType": "SLOT",
+      "AWCGameCode": "JILI-SLOT-070",
+      "EnglishName": "Samba",
+      "ChineseName": "森巴嘉年华",
+      "RTP": 0.97,
+      "ThaiName": "แซมบ้า",
+      "VietnameseName": "Samba"
+    },
+    {
+      "Platform": "JILI",
+      "GameType": "SLOT",
+      "AWCGameCode": "JILI-SLOT-071",
+      "EnglishName": "Neko Fortune",
+      "ChineseName": "招财猫",
+      "RTP": 0.97,
+      "ThaiName": "แมวกวักนำโชค",
+      "VietnameseName": "Mèo Thần Tài"
+    },
+    {
+      "Platform": "JILI",
+      "GameType": "SLOT",
+      "AWCGameCode": "JILI-SLOT-072",
+      "EnglishName": "Wild Racer",
+      "ChineseName": "极速狂飙",
+      "RTP": 0.97,
+      "ThaiName": "ไวลด์เรเซอร์",
+      "VietnameseName": "tay đua hoang dã"
+    },
+    {
+      "Platform": "JILI",
+      "GameType": "SLOT",
+      "AWCGameCode": "JILI-SLOT-073",
+      "EnglishName": "Pirate Queen",
+      "ChineseName": "海盜女王",
+      "RTP": 0.97,
+      "ThaiName": "-",
+      "VietnameseName": "Nữ hoàng hải tặc"
+    },
+    {
+      "Platform": "JILI",
+      "GameType": "SLOT",
+      "AWCGameCode": "JILI-SLOT-074",
+      "EnglishName": "Golden Joker",
+      "ChineseName": "黃金小丑",
+      "RTP": 0.97,
+      "ThaiName": "-",
+      "VietnameseName": "Quân J vàng"
+    },
+    {
+      "Platform": "JILI",
+      "GameType": "SLOT",
+      "AWCGameCode": "JILI-SLOT-075",
+      "EnglishName": "Wild Ace",
+      "ChineseName": "百搭王牌",
+      "RTP": 0.97,
+      "ThaiName": "-",
+      "VietnameseName": "-"
+    },
+    {
+      "Platform": "JILI",
+      "GameType": "SLOT",
+      "AWCGameCode": "JILI-SLOT-076",
+      "EnglishName": "Fortune Gems 2",
+      "ChineseName": "迦罗宝石2",
+      "RTP": 0.97,
+      "ThaiName": "เพชรมงคล 2",
+      "VietnameseName": "Ngọc may mắn 2"
+    },
+    {
+      "Platform": "JILI",
+      "GameType": "SLOT",
+      "AWCGameCode": "JILI-SLOT-077",
+      "EnglishName": "Master Tiger",
+      "ChineseName": "功夫虎",
+      "RTP": 0.97,
+      "ThaiName": "-",
+      "VietnameseName": "-"
+    },
+    {
+      "Platform": "JILI",
+      "GameType": "SLOT",
+      "AWCGameCode": "JILI-SLOT-078",
+      "EnglishName": "Cricket King 18",
+      "ChineseName": "Cricket King 18",
+      "RTP": 0.97,
+      "ThaiName": "Cricket King 18",
+      "VietnameseName": "Cricket King 18"
+    },
+    {
+      "Platform": "JILI",
+      "GameType": "SLOT",
+      "AWCGameCode": "JILI-SLOT-079",
+      "EnglishName": "Sweet Land",
+      "ChineseName": "糖果乐园",
+      "RTP": 0.97,
+      "ThaiName": "สวีทแลนด์",
+      "VietnameseName": "Đất Ngọt"
+    },
+    {
+      "Platform": "JILI",
+      "GameType": "SLOT",
+      "AWCGameCode": "JILI-SLOT-080",
+      "EnglishName": "Golden Temple",
+      "ChineseName": "黄金神庙",
+      "RTP": 0.97,
+      "ThaiName": "วัดทอง",
+      "VietnameseName": "Chùa vàng"
+    },
+    {
+      "Platform": "JILI",
+      "GameType": "SLOT",
+      "AWCGameCode": "JILI-SLOT-081",
+      "EnglishName": "Elf Bingo",
+      "ChineseName": "爱尔兰精灵",
+      "RTP": 0.97,
+      "ThaiName": "-",
+      "VietnameseName": "-"
+    },
+    {
+      "Platform": "JILI",
+      "GameType": "SLOT",
+      "AWCGameCode": "JILI-SLOT-082",
+      "EnglishName": "Cricket Sah 75",
+      "ChineseName": "-",
+      "RTP": 0.97,
+      "ThaiName": "-",
+      "VietnameseName": "-"
+    },
+    {
+      "Platform": "JILI",
+      "GameType": "SLOT",
+      "AWCGameCode": "JILI-SLOT-083",
+      "EnglishName": "Aztec Priestess",
+      "ChineseName": "帝国女祭司",
+      "RTP": 0.97,
+      "ThaiName": "นักบวชแอซเท็ก",
+      "VietnameseName": "Nữ tu sĩ Aztec"
+    },
+    {
+      "Platform": "JILI",
+      "GameType": "SLOT",
+      "AWCGameCode": "JILI-SLOT-084",
+      "EnglishName": "Trial of Phoenix",
+      "ChineseName": "鳳凰試煉",
+      "RTP": 0.97,
+      "ThaiName": "บททดสอบของฟีนิกซ์",
+      "VietnameseName": "Phiên tòa xét xử Phoenix"
+    },
+    {
+      "Platform": "JILI",
+      "GameType": "SLOT",
+      "AWCGameCode": "JILI-SLOT-085",
+      "EnglishName": "Devil Fire",
+      "ChineseName": "恶魔之火",
+      "RTP": 0.97,
+      "ThaiName": "ปีศาจไฟ",
+      "VietnameseName": "lửa quỷ"
+    },
+    {
+      "Platform": "JILI",
+      "GameType": "SLOT",
+      "AWCGameCode": "JILI-SLOT-086",
+      "EnglishName": "Bangla Beauty",
+      "ChineseName": "孟加拉甜心",
+      "RTP": 0.97,
+      "ThaiName": "บางลาบิวตี้",
+      "VietnameseName": "Người đẹp Bangla"
+    },
+    {
+      "Platform": "JILI",
+      "GameType": "SLOT",
+      "AWCGameCode": "JILI-SLOT-087",
+      "EnglishName": "Fortune Monkey",
+      "ChineseName": "丛林派对",
+      "RTP": 0.97,
+      "ThaiName": "ลิงฟอร์จูน",
+      "VietnameseName": "Khỉ may mắn"
+    },
+    {
+      "Platform": "JILI",
+      "GameType": "SLOT",
+      "AWCGameCode": "JILI-SLOT-088",
+      "EnglishName": "Dabanggg",
+      "ChineseName": "-",
+      "RTP": 0.97,
+      "ThaiName": "-",
+      "VietnameseName": "-"
+    },
+    {
+      "Platform": "JILI",
+      "GameType": "SLOT",
+      "AWCGameCode": "JILI-SLOT-089",
+      "EnglishName": "Sin City",
+      "ChineseName": "罪恶都市",
+      "RTP": 0.97,
+      "ThaiName": "เมืองมาเฟียครอง",
+      "VietnameseName": "Thành phố tội lỗi"
+    },
+    {
+      "Platform": "JILI",
+      "GameType": "SLOT",
+      "AWCGameCode": "JILI-SLOT-090",
+      "EnglishName": "Night City",
+      "ChineseName": "夜上海",
+      "RTP": 0.97,
+      "ThaiName": "เมืองกลางคืน",
+      "VietnameseName": "Thành phố đêm"
+    },
+    {
+      "Platform": "JILI",
+      "GameType": "SLOT",
+      "AWCGameCode": "JILI-SLOT-091",
+      "EnglishName": "King Arthur",
+      "ChineseName": "亚瑟王",
+      "RTP": 0.97,
+      "ThaiName": "King Arthur",
+      "VietnameseName": "King Arthur"
+    },
+    {
+      "Platform": "JILI",
+      "GameType": "SLOT",
+      "AWCGameCode": "JILI-SLOT-092",
+      "EnglishName": "Arena Fighter",
+      "ChineseName": "浴血战士",
+      "RTP": 0.97,
+      "ThaiName": "นักสู้สนาม",
+      "VietnameseName": "Chiến binh đấu trường"
+    },
+    {
+      "Platform": "JILI",
+      "GameType": "SLOT",
+      "AWCGameCode": "JILI-SLOT-093",
+      "EnglishName": "Charge Buffalo Ascent ",
+      "ChineseName": "冲锋野牛 Ascent",
+      "RTP": 0.97,
+      "ThaiName": "ไช้จอมคำนวณกระบี่",
+      "VietnameseName": "Tính phí Buffalo Ascent"
+    },
+    {
+      "Platform": "JILI",
+      "GameType": "SLOT",
+      "AWCGameCode": "JILI-SLOT-094",
+      "EnglishName": "Devil Fire 2",
+      "ChineseName": "恶魔之火2",
+      "RTP": 0.97,
+      "ThaiName": "ปีศาจไฟ 2",
+      "VietnameseName": "Lửa Quỷ 2"
+    },
+    {
+      "Platform": "JILI",
+      "GameType": "SLOT",
+      "AWCGameCode": "JILI-SLOT-095",
+      "EnglishName": "Witches Night",
+      "ChineseName": "魔女之夜",
+      "RTP": 0.97,
+      "ThaiName": "คืนแม่มด",
+      "VietnameseName": "Đêm phù thủy"
+    },
+    {
+      "Platform": "JILI",
+      "GameType": "SLOT",
+      "AWCGameCode": "JILI-SLOT-096",
+      "EnglishName": "Fortune Gems 3",
+      "ChineseName": "迦罗宝石 3",
+      "RTP": 0.97,
+      "ThaiName": "เพชรมงคล 3",
+      "VietnameseName": "Ngọc may mắn 3"
+    },
+    {
+      "Platform": "JILI",
+      "GameType": "SLOT",
+      "AWCGameCode": "JILI-SLOT-097",
+      "EnglishName": "Zeus",
+      "ChineseName": "宙斯",
+      "RTP": 0.97,
+      "ThaiName": "ซุส",
+      "VietnameseName": "Zeus"
+    },
+    {
+      "Platform": "JILI",
+      "GameType": "SLOT",
+      "AWCGameCode": "JILI-SLOT-098",
+      "EnglishName": "Potion Wizard",
+      "ChineseName": "魔药巫师",
+      "RTP": 0.97,
+      "ThaiName": "พ่อมดยา",
+      "VietnameseName": "Phù Thủy Thuốc"
+    },
+    {
+      "Platform": "JILI",
+      "GameType": "SLOT",
+      "AWCGameCode": "JILI-SLOT-099",
+      "EnglishName": "Crazy Hunter 2",
+      "ChineseName": "疯狂炮手 2",
+      "RTP": 0.97,
+      "ThaiName": "ฮันเตอร์ปืนใหญ่บ้าคลั่ง 2",
+      "VietnameseName": "Pháo thủ điên cuồng 2"
+    },
+    {
+      "Platform": "JILI",
+      "GameType": "SLOT",
+      "AWCGameCode": "JILI-SLOT-100",
+      "EnglishName": "Jackpot Joker",
+      "ChineseName": "彩金小丑",
+      "RTP": 0.97,
+      "ThaiName": "แจ็กพ็อตโจ๊กเกอร์",
+      "VietnameseName": "Jackpot Joker"
+    },
+    {
+      "Platform": "JILI",
+      "GameType": "SLOT",
+      "AWCGameCode": "JILI-SLOT-101",
+      "EnglishName": "3 Coin Treasures",
+      "ChineseName": "三币瑞龙",
+      "RTP": 0.97,
+      "ThaiName": "สมบัติ 3 เหรียญ",
+      "VietnameseName": "3 kho báu đồng xu"
+    },
+    {
+      "Platform": "JILI",
+      "GameType": "SLOT",
+      "AWCGameCode": "JILI-SLOT-102",
+      "EnglishName": "Super Ace Deluxe",
+      "ChineseName": "超级王牌豪华版",
+      "RTP": 0.97,
+      "ThaiName": "ซุปเปอร์ เอซ ดีลักซ์",
+      "VietnameseName": "Siêu Át Chủ Bài Cao Cấp"
+    },
+    {
+      "Platform": "JILI",
+      "GameType": "TABLE",
+      "AWCGameCode": "JILI-TABLE-001",
+      "EnglishName": "Teen Patti",
+      "ChineseName": "印度扑克",
+      "RTP": 0.97,
+      "ThaiName": "TeenPatti",
+      "VietnameseName": "-"
+    },
+    {
+      "Platform": "JILI",
+      "GameType": "TABLE",
+      "AWCGameCode": "JILI-TABLE-002",
+      "EnglishName": "AK47",
+      "ChineseName": "AK47",
+      "RTP": 0.97,
+      "ThaiName": "AK47",
+      "VietnameseName": "-"
+    },
+    {
+      "Platform": "JILI",
+      "GameType": "TABLE",
+      "AWCGameCode": "JILI-TABLE-003",
+      "EnglishName": "Andar Bahar",
+      "ChineseName": "Andar Bahar",
+      "RTP": 0.97,
+      "ThaiName": "ANDAR BAHAR",
+      "VietnameseName": "-"
+    },
+    {
+      "Platform": "JILI",
+      "GameType": "TABLE",
+      "AWCGameCode": "JILI-TABLE-004",
+      "EnglishName": "Rummy",
+      "ChineseName": "Rummy",
+      "RTP": 0.97,
+      "ThaiName": "Rummy",
+      "VietnameseName": "-"
+    },
+    {
+      "Platform": "JILI",
+      "GameType": "TABLE",
+      "AWCGameCode": "JILI-TABLE-005",
+      "EnglishName": "NumberKing\t",
+      "ChineseName": "数字之王",
+      "RTP": 0.97,
+      "ThaiName": "ราชาแห่งตัวเลข",
+      "VietnameseName": "Vua các chữ số"
+    },
+    {
+      "Platform": "JILI",
+      "GameType": "TABLE",
+      "AWCGameCode": "JILI-TABLE-006",
+      "EnglishName": "Poker King",
+      "ChineseName": "扑克之王",
+      "RTP": 0.97,
+      "ThaiName": "ราชาแห่งโป๊กเกอร์",
+      "VietnameseName": "Vua Poker"
+    },
+    {
+      "Platform": "JILI",
+      "GameType": "TABLE",
+      "AWCGameCode": "JILI-TABLE-007",
+      "EnglishName": "Big small",
+      "ChineseName": "大小竞猜",
+      "RTP": 0.97,
+      "ThaiName": "-",
+      "VietnameseName": "Taixiu"
+    },
+    {
+      "Platform": "JILI",
+      "GameType": "TABLE",
+      "AWCGameCode": "JILI-TABLE-008",
+      "EnglishName": "iRich Bingo",
+      "ChineseName": "iRich Bingo",
+      "RTP": 0.97,
+      "ThaiName": "iRich Bingo",
+      "VietnameseName": "iRich Bingo"
+    },
+    {
+      "Platform": "JILI",
+      "GameType": "TABLE",
+      "AWCGameCode": "JILI-TABLE-009",
+      "EnglishName": "Callbreak",
+      "ChineseName": "Callbreak",
+      "RTP": 0.97,
+      "ThaiName": "Callbreak",
+      "VietnameseName": "Callbreak"
+    },
+    {
+      "Platform": "JILI",
+      "GameType": "TABLE",
+      "AWCGameCode": "JILI-TABLE-010",
+      "EnglishName": "TeenPatti Joker",
+      "ChineseName": "TeenPatti Joker",
+      "RTP": 0.97,
+      "ThaiName": "TeenPatti Joker",
+      "VietnameseName": "TeenPatti Joker"
+    },
+    {
+      "Platform": "JILI",
+      "GameType": "TABLE",
+      "AWCGameCode": "JILI-TABLE-011",
+      "EnglishName": "7up7down",
+      "ChineseName": "七上七下",
+      "RTP": 0.97,
+      "ThaiName": "7up7down",
+      "VietnameseName": "Bảy lên bảy xuống"
+    },
+    {
+      "Platform": "JILI",
+      "GameType": "TABLE",
+      "AWCGameCode": "JILI-TABLE-012",
+      "EnglishName": "Dragon & Tiger",
+      "ChineseName": "龙虎斗",
+      "RTP": 0.97,
+      "ThaiName": "ศึกมังกรเสือ",
+      "VietnameseName": "Long Hổ Đấu"
+    },
+    {
+      "Platform": "JILI",
+      "GameType": "TABLE",
+      "AWCGameCode": "JILI-TABLE-013",
+      "EnglishName": "Callbreak Quick",
+      "ChineseName": "Callbreak Quick",
+      "RTP": 0.97,
+      "ThaiName": "Callbreak Quick",
+      "VietnameseName": "Callbreak Quick"
+    },
+    {
+      "Platform": "JILI",
+      "GameType": "TABLE",
+      "AWCGameCode": "JILI-TABLE-014",
+      "EnglishName": "Baccarat",
+      "ChineseName": "百家乐",
+      "RTP": 0.97,
+      "ThaiName": "Baccarat",
+      "VietnameseName": "Baccarat"
+    },
+    {
+      "Platform": "JILI",
+      "GameType": "TABLE",
+      "AWCGameCode": "JILI-TABLE-015",
+      "EnglishName": "Fortune Bingo",
+      "ChineseName": "Fortune Bingo",
+      "RTP": 0.97,
+      "ThaiName": "Fortune Bingo",
+      "VietnameseName": "Fortune Bingo"
+    },
+    {
+      "Platform": "JILI",
+      "GameType": "TABLE",
+      "AWCGameCode": "JILI-TABLE-016",
+      "EnglishName": "TeenPatti 20-20",
+      "ChineseName": "TeenPatti 20-20",
+      "RTP": 0.97,
+      "ThaiName": "TeenPatti 20-20",
+      "VietnameseName": "TeenPatti 20-20"
+    },
+    {
+      "Platform": "JILI",
+      "GameType": "TABLE",
+      "AWCGameCode": "JILI-TABLE-017",
+      "EnglishName": "Sic Bo",
+      "ChineseName": "骰宝",
+      "RTP": 0.97,
+      "ThaiName": "ซิกโบ",
+      "VietnameseName": "Sicbo"
+    },
+    {
+      "Platform": "JILI",
+      "GameType": "TABLE",
+      "AWCGameCode": "JILI-TABLE-018",
+      "EnglishName": "Super Bingo",
+      "ChineseName": "Super Bingo",
+      "RTP": 0.97,
+      "ThaiName": "Super Bingo",
+      "VietnameseName": "Super Bingo"
+    },
+    {
+      "Platform": "JILI",
+      "GameType": "TABLE",
+      "AWCGameCode": "JILI-TABLE-019",
+      "EnglishName": "Bingo Carnaval",
+      "ChineseName": "Bingo Carnaval",
+      "RTP": 0.97,
+      "ThaiName": "Bingo Carnaval",
+      "VietnameseName": "Bingo Carnaval"
+    },
+    {
+      "Platform": "JILI",
+      "GameType": "TABLE",
+      "AWCGameCode": "JILI-TABLE-020",
+      "EnglishName": "Lucky Bingo",
+      "ChineseName": "Lucky Bingo",
+      "RTP": 0.97,
+      "ThaiName": "Lucky Bingo",
+      "VietnameseName": "Lucky Bingo"
+    },
+    {
+      "Platform": "JILI",
+      "GameType": "TABLE",
+      "AWCGameCode": "JILI-TABLE-021",
+      "EnglishName": "Ludo Quick",
+      "ChineseName": "Ludo Quick",
+      "RTP": 0.97,
+      "ThaiName": "Ludo Quick",
+      "VietnameseName": "Ludo Quick"
+    },
+    {
+      "Platform": "JILI",
+      "GameType": "TABLE",
+      "AWCGameCode": "JILI-TABLE-022",
+      "EnglishName": "Go Goal Bingo",
+      "ChineseName": "Go Goal Bingo",
+      "RTP": 0.97,
+      "ThaiName": "Go Goal Bingo",
+      "VietnameseName": "Go Goal Bingo"
+    },
+    {
+      "Platform": "JILI",
+      "GameType": "TABLE",
+      "AWCGameCode": "JILI-TABLE-023",
+      "EnglishName": "Color Game",
+      "ChineseName": "Color Game",
+      "RTP": 0.97,
+      "ThaiName": "Color Game",
+      "VietnameseName": "Color Game"
+    },
+    {
+      "Platform": "JILI",
+      "GameType": "TABLE",
+      "AWCGameCode": "JILI-TABLE-024",
+      "EnglishName": "Jackpot Bingo",
+      "ChineseName": "Jackpot Bingo",
+      "RTP": 0.97,
+      "ThaiName": "Jackpot Bingo",
+      "VietnameseName": "Jackpot Bingo"
+    },
+    {
+      "Platform": "JILI",
+      "GameType": "TABLE",
+      "AWCGameCode": "JILI-TABLE-025",
+      "EnglishName": "Tongits Go",
+      "ChineseName": "Tongits Go",
+      "RTP": 0.97,
+      "ThaiName": "Tongits Go",
+      "VietnameseName": "Tongits Go"
+    },
+    {
+      "Platform": "JILI",
+      "GameType": "TABLE",
+      "AWCGameCode": "JILI-TABLE-026",
+      "EnglishName": "Calaca Bingo",
+      "ChineseName": "Calaca Bingo",
+      "RTP": 0.97,
+      "ThaiName": "Calaca Bingo",
+      "VietnameseName": "Calaca Bingo"
+    },
+    {
+      "Platform": "JILI",
+      "GameType": "TABLE",
+      "AWCGameCode": "JILI-TABLE-027",
+      "EnglishName": "Golden Land",
+      "ChineseName": "黃金秘境",
+      "RTP": 0.97,
+      "ThaiName": "แดนลึกลับทองคำ",
+      "VietnameseName": "Mật Địa Hoàng Kim"
+    },
+    {
+      "Platform": "JILI",
+      "GameType": "TABLE",
+      "AWCGameCode": "JILI-TABLE-028",
+      "EnglishName": "PAPPU",
+      "ChineseName": "PAPPU",
+      "RTP": 0.97,
+      "ThaiName": "PAPPU",
+      "VietnameseName": "PAPPU"
+    },
+    {
+      "Platform": "JILI",
+      "GameType": "TABLE",
+      "AWCGameCode": "JILI-TABLE-029",
+      "EnglishName": "West Hunter Bingo",
+      "ChineseName": "West Hunter Bingo",
+      "RTP": 0.97,
+      "ThaiName": "West Hunter Bingo",
+      "VietnameseName": "West Hunter Bingo"
+    },
+    {
+      "Platform": "JILI",
+      "GameType": "TABLE",
+      "AWCGameCode": "JILI-TABLE-030",
+      "EnglishName": "Go Rush",
+      "ChineseName": "Go Rush",
+      "RTP": 0.97,
+      "ThaiName": "Go Rush",
+      "VietnameseName": "Go Rush"
+    },
+    {
+      "Platform": "JILI",
+      "GameType": "TABLE",
+      "AWCGameCode": "JILI-TABLE-031",
+      "EnglishName": "Tower",
+      "ChineseName": "Tower",
+      "RTP": 0.97,
+      "ThaiName": "Tower",
+      "VietnameseName": "Tower"
+    },
+    {
+      "Platform": "JILI",
+      "GameType": "TABLE",
+      "AWCGameCode": "JILI-TABLE-032",
+      "EnglishName": "HILO",
+      "ChineseName": "HILO",
+      "RTP": 0.97,
+      "ThaiName": "HILO",
+      "VietnameseName": "HILO"
+    },
+    {
+      "Platform": "JILI",
+      "GameType": "TABLE",
+      "AWCGameCode": "JILI-TABLE-033",
+      "EnglishName": "Mines",
+      "ChineseName": "Mines",
+      "RTP": 0.97,
+      "ThaiName": "Mines",
+      "VietnameseName": "Mines"
+    },
+    {
+      "Platform": "JILI",
+      "GameType": "TABLE",
+      "AWCGameCode": "JILI-TABLE-034",
+      "EnglishName": "Bingo Adventure",
+      "ChineseName": "Bingo Adventure",
+      "RTP": 0.97,
+      "ThaiName": "Bingo Adventure",
+      "VietnameseName": "Bingo Adventure"
+    },
+    {
+      "Platform": "JILI",
+      "GameType": "TABLE",
+      "AWCGameCode": "JILI-TABLE-035",
+      "EnglishName": "Limbo",
+      "ChineseName": "Limbo",
+      "RTP": 0.97,
+      "ThaiName": "Limbo",
+      "VietnameseName": "Limbo"
+    },
+    {
+      "Platform": "JILI",
+      "GameType": "TABLE",
+      "AWCGameCode": "JILI-TABLE-036",
+      "EnglishName": "wheel ",
+      "ChineseName": "wheel ",
+      "RTP": 0.97,
+      "ThaiName": "wheel ",
+      "VietnameseName": "wheel "
+    },
+    {
+      "Platform": "JILI",
+      "GameType": "TABLE",
+      "AWCGameCode": "JILI-TABLE-037",
+      "EnglishName": "Mines Gold",
+      "ChineseName": "Mines Gold",
+      "RTP": 0.97,
+      "ThaiName": "Mines Gold",
+      "VietnameseName": "Mines Gold"
+    },
+    {
+      "Platform": "JILI",
+      "GameType": "TABLE",
+      "AWCGameCode": "JILI-TABLE-038",
+      "EnglishName": "Pusoy Go",
+      "ChineseName": "Pusoy Go",
+      "RTP": 0.97,
+      "ThaiName": "Pusoy Go",
+      "VietnameseName": "Pusoy Go"
+    },
+    {
+      "Platform": "JILI",
+      "GameType": "TABLE",
+      "AWCGameCode": "JILI-TABLE-039",
+      "EnglishName": "Color Prediction",
+      "ChineseName": "Color Prediction",
+      "RTP": 0.97,
+      "ThaiName": "Color Prediction",
+      "VietnameseName": "Color Prediction"
+    },
+    {
+      "Platform": "JILI",
+      "GameType": "TABLE",
+      "AWCGameCode": "JILI-TABLE-040",
+      "EnglishName": "Keno",
+      "ChineseName": "Keno",
+      "RTP": 0.97,
+      "ThaiName": "Keno",
+      "VietnameseName": "Keno"
+    },
+    {
+      "Platform": "JILI",
+      "GameType": "TABLE",
+      "AWCGameCode": "JILI-TABLE-041",
+      "EnglishName": "Plinko",
+      "ChineseName": "Plinko",
+      "RTP": 0.97,
+      "ThaiName": "Plinko",
+      "VietnameseName": "Plinko"
+    },
+    {
+      "Platform": "JILI",
+      "GameType": "TABLE",
+      "AWCGameCode": "JILI-TABLE-042",
+      "EnglishName": "MINI FLUSH",
+      "ChineseName": "MINI FLUSH",
+      "RTP": 0.97,
+      "ThaiName": "MINI FLUSH",
+      "VietnameseName": "MINI FLUSH"
+    },
+    {
+      "Platform": "JILI",
+      "GameType": "TABLE",
+      "AWCGameCode": "JILI-TABLE-043",
+      "EnglishName": "Candyland Bingo",
+      "ChineseName": "Candyland Bingo",
+      "RTP": 0.97,
+      "ThaiName": "Candyland Bingo",
+      "VietnameseName": "Candyland Bingo"
+    },
+    {
+      "Platform": "JILI",
+      "GameType": "TABLE",
+      "AWCGameCode": "JILI-TABLE-044",
+      "EnglishName": "Blackjack",
+      "ChineseName": "Blackjack",
+      "RTP": 0.97,
+      "ThaiName": "Blackjack",
+      "VietnameseName": "Blackjack"
+    },
+    {
+      "Platform": "JILI",
+      "GameType": "TABLE",
+      "AWCGameCode": "JILI-TABLE-045",
+      "EnglishName": "Magic Lamp Bingo",
+      "ChineseName": "Magic Lamp Bingo",
+      "RTP": 0.97,
+      "ThaiName": "Magic Lamp Bingo",
+      "VietnameseName": "Magic Lamp Bingo"
+    },
+    {
+      "Platform": "JILI",
+      "GameType": "TABLE",
+      "AWCGameCode": "JILI-TABLE-046",
+      "EnglishName": "Blackjack Lucky Ladies",
+      "ChineseName": "Blackjack Lucky Ladies",
+      "RTP": 0.97,
+      "ThaiName": "Blackjack Lucky Ladies",
+      "VietnameseName": "Blackjack Lucky Ladies"
+    },
+    {
+      "Platform": "JILI",
+      "GameType": "TABLE",
+      "AWCGameCode": "JILI-TABLE-047",
+      "EnglishName": "Crash Bonus",
+      "ChineseName": "Crash Bonus",
+      "RTP": 0.97,
+      "ThaiName": "Crash Bonus",
+      "VietnameseName": "Crash Bonus"
+    },
+    {
+      "Platform": "JILI",
+      "GameType": "TABLE",
+      "AWCGameCode": "JILI-TABLE-048",
+      "EnglishName": "Pool Rummy",
+      "ChineseName": "Pool Rummy",
+      "RTP": 0.97,
+      "ThaiName": "Pool Rummy",
+      "VietnameseName": "-"
+    },
+    {
+      "Platform": "JILI",
+      "GameType": "TABLE",
+      "AWCGameCode": "JILI-TABLE-049",
+      "EnglishName": "Caribbean Stud Poker",
+      "ChineseName": "Caribbean Stud Poker",
+      "RTP": 0.97,
+      "ThaiName": "Caribbean Stud Poker",
+      "VietnameseName": "-"
+    },
+    {
+      "Platform": "JILI",
+      "GameType": "TABLE",
+      "AWCGameCode": "JILI-TABLE-050",
+      "EnglishName": "Video Poker",
+      "ChineseName": "-",
+      "RTP": 0.97,
+      "ThaiName": "-",
+      "VietnameseName": "-"
+    },
+    {
+      "Platform": "JILI",
+      "GameType": "TABLE",
+      "AWCGameCode": "JILI-TABLE-051",
+      "EnglishName": "Pearls of Bingo",
+      "ChineseName": "Pearls of Bingo",
+      "RTP": 0.97,
+      "ThaiName": "Pearls of Bingo",
+      "VietnameseName": "Pearls of Bingo"
+    },
+    {
+      "Platform": "JILI",
+      "GameType": "TABLE",
+      "AWCGameCode": "JILI-TABLE-052",
+      "EnglishName": "Jogo do Bicho",
+      "ChineseName": "Jogo do Bicho",
+      "RTP": 0.97,
+      "ThaiName": "Jogo do Bicho",
+      "VietnameseName": "Jogo do Bicho"
+    },
+    {
+      "Platform": "JILI",
+      "GameType": "TABLE",
+      "AWCGameCode": "JILI-TABLE-053",
+      "EnglishName": "European Roulette",
+      "ChineseName": "European Roulette",
+      "RTP": 0.97,
+      "ThaiName": "European Roulette",
+      "VietnameseName": "European Roulette"
+    },
+    {
+      "Platform": "JILI",
+      "GameType": "TABLE",
+      "AWCGameCode": "JILI-TABLE-054",
+      "EnglishName": "Speed Baccarat",
+      "ChineseName": "Speed Baccarat",
+      "RTP": 0.97,
+      "ThaiName": "Speed Baccarat",
+      "VietnameseName": "Speed Baccarat"
+    },
+    {
+      "Platform": "JILI",
+      "GameType": "TABLE",
+      "AWCGameCode": "JILI-TABLE-055",
+      "EnglishName": "Crash Goal",
+      "ChineseName": "Crash Goal",
+      "RTP": 0.97,
+      "ThaiName": "Crash Goal",
+      "VietnameseName": "Crash Goal"
+    },
+    {
+      "Platform": "JILI",
+      "GameType": "TABLE",
+      "AWCGameCode": "JILI-TABLE-056",
+      "EnglishName": "Jhandi Munda",
+      "ChineseName": "Jhandi Munda",
+      "RTP": 0.97,
+      "ThaiName": "จันที มันดา",
+      "VietnameseName": "Siêu Át Chủ Bài Cao Cấp"
+    }
+  ]

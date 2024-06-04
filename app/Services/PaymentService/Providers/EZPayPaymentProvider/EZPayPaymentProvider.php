@@ -1,0 +1,228 @@
+<?php
+
+namespace App\Services\PaymentService\Providers\EZPayPaymentProvider;
+
+use App\Constants\BankCodeConstants;
+use App\Models\Player;
+use App\Models\Transaction;
+use App\Services\PaymentService\Constants\PaymentServiceConstant;
+use App\Services\PaymentService\DepositPaymentInterface;
+use App\Services\PaymentService\DTOs\DepositCallbackDTO;
+use App\Services\PaymentService\DTOs\DepositDTO;
+use App\Services\PaymentService\PaymentServiceEnum;
+use App\Services\PaymentService\Providers\EZPayPaymentProvider\Enums\EZPAYPaymentCurrencyEnums;
+use Illuminate\Support\Facades\Config;
+use Illuminate\Support\Facades\Http;
+use Illuminate\Support\Facades\Log;
+use Exception;
+
+
+class EZPayPaymentProvider implements DepositPaymentInterface
+{
+
+    Const CALLBACK_DEPOSIT_SUCCESS = 30000; //  THIS IS STATUS CODE FOR IF DEPOSIT CALLBACK RETURN SUCESS RESPONSE.
+    Const CALLBACK_DEPOSIT_REFUNDED_OR_FAILED = 50000; //  THIS IS STATUS CODE FOR IF DEPOSIT CALLBACK RETURN FAILED OR REFUNDED TO PLAYER IF SOMETHING WENT WRONG WHILE DOING DEPOSIT.
+
+    Const SCAN_CAHNNEL_CONNECTION_CODE =5219;   // Direct connection channel code 5220
+    const DIRECT_CHANNEL_CONNECTION_CODE =5220; // Scan code channel code 5219
+
+    const DEPOSIT_SUCCESS_MESSAGE = "Success";
+    const DEPOSIT_TRANSACTION_FAILED = "Failed";
+
+    const CALLBACK_NOTIFY_MESSAGE_FAIL = "Callback Failed";
+    const CALLBACK_NOTIFY_MESSAGE_SUCCESS = "Callback Success";
+
+    const SIGNATURE_ERROR = "Signature Error";
+    const AMOUNT_MISSMATCHED = "Amount Mismatched";
+
+
+
+    protected Transaction $transaction;
+    protected $mchId;
+    protected $signature;
+    protected $base_url;
+    protected $unit_points;
+    protected $secret_key;
+    protected $deposit_notify_url;
+    protected $withdraw_notify_url;
+    protected $currency;
+    protected $transfer_no;
+    protected $headers;
+    protected $product_enum;
+    protected $withdraw_url;
+
+    public function __construct(Transaction $transaction)
+    {
+        $this->transaction = $transaction;
+        $this->mchId = Config::get('app.payment_providers.EZPAY.mchid');
+        $this->base_url = Config::get('app.payment_providers.EZPAY.base_url');
+        $this->secret_key = Config::get('app.payment_providers.EZPAY.secret_key');
+        $this->deposit_notify_url = Config::get('app.payment_providers.deposit_callback_url');
+        $this->withdraw_notify_url = Config::get('app.payment_providers.withdraw_callback_url');
+
+        $this->currency = EZPAYPaymentCurrencyEnums::mapCurrencyToEnum($this->transaction->currency);
+
+        $this->headers = [
+            'Content-Type' => 'application/json',
+            'Accept' => 'application/json',
+        ];
+    }
+
+    public function makeDepositRequest($clientURl): DepositDTO
+    {
+        $data = null;
+        $result = null;
+        $extra_data = null;
+
+        try {
+
+            $headers = [
+                'Content-Type' => 'application/json',
+                'Accept' => 'application/json',
+            ];
+
+            $this->transfer_no = $this->transaction->isDepositTransaction->deposit_transaction_no;
+            $Callback_url = $this->deposit_notify_url . '/' . PaymentServiceEnum::EZPAY->value . '/' . $this->transaction->id;
+
+            Log::info("Call_back_url_before_sending_and_before_hasing",[$Callback_url]);
+
+            $bank_code      = BankCodeConstants::getCode($this->transaction->paymentMethod->bankCode->code);
+            $merchant       = $this->mchId;
+            $returnUrl      = $clientURl."/account/transactions";
+            $amount         =$this->transaction->amount;
+            $user = (Player::where('id',$this->transaction->player_id)->first())->user();
+            $paydate = date('Y-m-d');
+            $paydateunix = $this->convertTimestamp($paydate);
+            $data = [
+                'pay_customer_id'=>(string)$this->transaction->player_id,
+                'pay_apply_date'=>(string)$paydateunix,
+                'pay_order_id'=>$this->transfer_no,
+                'pay_notify_url' =>$Callback_url,
+                'pay_amount' => $amount,
+                'pay_channel_id'=>(string) EZPayPaymentProvider::DIRECT_CHANNEL_CONNECTION_CODE,
+                'pay_product_name'=>'Wallet',
+            ];
+            
+            $key = $this->secret_key;
+            $data['pay_md5_sign'] = $this->generateSignature($data, $key);
+            $payment_url=$this->base_url . "/" . "pay_order";
+
+            $response = Http::withHeaders($headers)->post($payment_url, $data);
+            $result = $response->json();
+
+            Log::info('API Response:', [$result]);
+            
+            if (isset($result['status']) && $result['status'] == 1) {
+
+                Log::info('API Response Successful:', [$result]);
+                $payment_url=$result['qr_url'];
+                $extra_data =$result;
+                $thirdparty_transaction_id = $result['transaction_id']; // this is generated by thirdparty they have sent in response.
+                return new DepositDTO(
+                    $this->transaction->id,
+                    PaymentServiceConstant::STATUS_WAIT_FOR_PLAYER_PAYMENT,
+                    EZPayPaymentProvider::DEPOSIT_SUCCESS_MESSAGE ,
+                    $payment_url,
+                    $this->transfer_no,
+                    $thirdparty_transaction_id,
+                    null,
+                    $result,
+                    $data,
+                    $extra_data
+                );
+
+            } else {
+
+                Log::error('Transaction failed:', [$result]);
+                return new DepositDTO(
+                    $this->transaction->id,
+                    PaymentServiceConstant::STATUS_FAILED,
+                    EZPayPaymentProvider::DEPOSIT_TRANSACTION_FAILED,
+                    null,
+                    $this->transfer_no,
+                    null,
+                    null,
+                    $result,
+                    $data,
+                    $extra_data
+                );
+            }
+        } catch (Exception $exception) {
+            Log::error("EZPay Deposit Transaction Exception occurred:", [$exception->getMessage()]);
+
+            return new DepositDTO(
+                $this->transaction->id,
+                PaymentServiceConstant::STATUS_FAILED,
+                EZPayPaymentProvider::DEPOSIT_TRANSACTION_FAILED,
+                null,
+                $this->transfer_no,
+                null,
+                null,
+                $result,
+                $data,
+                $extra_data
+            );
+        }
+    }
+
+    public  function processDepositCallback($data, $transaction): DepositCallbackDTO
+    {
+        Log::info('in processDepositCallback');
+        Log::info(json_encode($data));
+        Log::info($transaction->id);
+        Log::info('end processDepositCallback');
+
+
+        $generated_signature = $this->generateSignature($data, $this->secret_key);
+        
+        if ($data['sign'] !== $generated_signature) {
+            return new DepositCallbackDTO($transaction->id, false, EZPayPaymentProvider::SIGNATURE_ERROR, null, 200, $this->generateCallbackResponse(self::CALLBACK_NOTIFY_MESSAGE_FAIL, false));
+        }
+        $amount = $data['real_amount'];
+
+        if ($data['status'] != self::CALLBACK_DEPOSIT_SUCCESS) {
+            return new DepositCallbackDTO($transaction->id, false, EZPayPaymentProvider::CALLBACK_NOTIFY_MESSAGE_FAIL, null, 200, $this->generateCallbackResponse(self::CALLBACK_NOTIFY_MESSAGE_FAIL, false));
+        }
+
+        if ($amount != $transaction->amount) {
+            return new DepositCallbackDTO($transaction->id, false, EZPayPaymentProvider::AMOUNT_MISSMATCHED, null, 200, $this->generateCallbackResponse(self::CALLBACK_NOTIFY_MESSAGE_FAIL, false));
+        }
+        
+        return new DepositCallbackDTO($transaction->id, true, self::CALLBACK_NOTIFY_MESSAGE_SUCCESS, null, 200, $this->generateCallbackResponse(self::CALLBACK_NOTIFY_MESSAGE_SUCCESS, true));
+    }
+
+    public function generateCallbackResponse(string $message, $status)
+    {
+        return [
+            'message' => $message,
+            'status' => $status,
+        ];
+    }
+
+
+    private function generateSignature($arr, $secret_key)
+    {
+
+        ksort($arr);
+        $md5str = "";
+        foreach ($arr as $key => $val) {
+            if ($val != null && $val != "") {
+                $md5str = $md5str . $key . "=" . $val . "&";
+            }
+        }
+        return strtoupper(md5($md5str . "key=" . $secret_key));
+
+    }
+
+    public static function convertUnitPointsToAmount($amount, $currency)
+    {
+        return match ($currency) {
+            EZPAYPaymentCurrencyEnums::PHP => ($amount),
+            default => throw new \Exception('Currency Enum Incorrect')
+        };
+    }
+
+    public static function convertTimestamp($input) {
+        return is_numeric($input) && (int)$input == $input ? date('Y-m-d H:i:s', $input) : strtotime($input);      
+    }
+}
